@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    overflow-x: clip;
+    
+}
+body{
+    text-align: center;
+    margin-top: 300px;
+    background-image: url('hero1.jpg');
+    background-repeat: repeat-y;
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+    color:rgb(255, 255, 255);
+}
+button{
+    height:40px;
+    width:130px;
+    text-align: center;
+    background-color: rgb(0, 102, 0);
+    border:none;
+    border-radius: 15px;
+    color: rgb(211, 210, 210);
+    transition: ease-in-out 0.5s;
+
+}
+button a{
+    text-decoration: none;
+    color:white;
+}
+button:hover{
+    background-color: rgb(1, 53, 1);
+    color:white;
+    filter:drop-shadow(1px 1px 10px rgb(0, 255, 0));
+    cursor:pointer;
+    transition: ease-in-out 0.5s;
+}
+.welcome{
+    color:rgb(1, 61, 1);
+}
+.welcome:hover{
+    filter:drop-shadow(1px 1px 10px rgb(0, 255, 0));
+    transition: ease-in-out 0.5s;
+}
