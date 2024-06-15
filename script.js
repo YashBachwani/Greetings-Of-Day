@@ -16,11 +16,11 @@ else if(e>=4 && e<12){
 else if(e>=12 && e<16){
     greetings="Good Afternoon ";
     time = "Your time is "+r.toLocaleTimeString();}
-else if(e>=16 && e<21){
+else if(e>=16 && e<23){
     greetings="Good Evening ";
     time = "Your time is "+r.toLocaleTimeString();}
 else{
-    greetings="Good Night ";
+    greetings="It's time for sleep, Good Night ";
     time = "Your time is "+r.toLocaleTimeString();
 }
     news1.innerHTML = greetings + name ;
