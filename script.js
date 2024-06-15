@@ -13,10 +13,10 @@ else if(e>=4 && e<12){
     greetings="Good Morrning ";
     time = "Your time is "+r.toLocaleTimeString();
 }
-else if(e>=12 && e<17){
+else if(e>=12 && e<16){
     greetings="Good Afternoon ";
     time = "Your time is "+r.toLocaleTimeString();}
-else if(e>=17 && e<20){
+else if(e>=16 && e<21){
     greetings="Good Evening ";
     time = "Your time is "+r.toLocaleTimeString();}
 else{
